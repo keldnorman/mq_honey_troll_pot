@@ -73,7 +73,7 @@ fi
 #------------------------------------------------------------------------------
 # HOST YOUR OWN MQ SERVER - VARIABLES
 #------------------------------------------------------------------------------
-START_OWN_MQ=0              # Set this to 1 to start our own server or 0 if not
+START_OWN_MQ=1              # Set this to 1 to start our own server or 0 if not
 START_MQ_SERVER_AT_BOOT=0   # Set this to 1 to autostart the MQ at boot
 #------------------------------------------------------------------------------
 MQ_HOST_IP="127.0.0.1"                # RUN Own MQ server on this IP 
